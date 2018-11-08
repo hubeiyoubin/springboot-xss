@@ -26,6 +26,7 @@ public class TestController {
 
     @GetMapping(value = "/query")
     public Object testQuery(String q){
+        System.out.println(q);
         return q;
     }
 
